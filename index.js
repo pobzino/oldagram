@@ -56,6 +56,7 @@ function showPost(){
                         </div>
                         <div class="general-padding likes">
                             <p id="like-count">${posts[i].likes} likes</p>
+                        </div>
                         <div class="comment">
                             <h4 id="username">${posts[i].username}</h4>
                             <p id="the-comment">${posts[i].comment}</p>

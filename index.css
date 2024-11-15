@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Source Sans 3", sans-serif;
+
+}
+.general-padding{
+    padding-left: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 15px;
+    border-bottom: 1px solid #C6C6C6;
+}
+#logo{
+    width: 127px;
+    height: 33px;
+    
+}
+#user{
+    width: 34px;
+    height: 34px;
+    border-radius: 180px;
+}
+.avatar{
+    padding: 10px 2px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#avatar-image{
+    width: 34px;
+    height: 34px;
+    border-radius: 90px;
+    margin-right: 5px;
+
+}
+#user-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+h5,p{
+    margin: 0;
+}
+h5{
+    font-weight: 700;
+    font-size: 13px;
+}
+p{
+    font-weight: 400;
+    font-size: 12px;
+}
+#image-post{
+    width: 100%;
+    height: 375px;
+}
+.icons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.the-icon{
+    width: 21px;
+    height: 21px;
+}
+.likes p{
+    font-weight: 700;
+    font-size: 13px;
+}
+.likes{
+    padding: 12px;
+}
+.comment{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 0;
+    gap: 5px;
+    
+}
+.comment p{
+    font-weight: 400;
+    font-size: 13px;
+}
+.comment h4{
+    margin-top: 0;
+    font-size: 13px;
+}
+li{
+    list-style: none;
+    list-style-type: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
